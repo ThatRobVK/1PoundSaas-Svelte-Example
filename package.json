@@ -1,0 +1,30 @@
+{
+  "name": "1poundsaas-svelte-example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "autoprefixer": "^10.4.7",
+    "classnames": "^2.3.2",
+    "flowbite": "^1.5.3",
+    "flowbite-svelte": "^0.27.5",
+    "postcss": "^8.4.14",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.10.7",
+    "tailwindcss": "^3.1.5",
+    "vite": "^3.1.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "svelte-heros-v2": "^0.2.4",
+    "uuid": "^9.0.0"
+  }
+}
