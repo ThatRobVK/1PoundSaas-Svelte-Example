@@ -4,6 +4,8 @@
 
     export let text;
     export let outline = '';
+    export let color = Theme.Main;
+    export let disabled = false;
 </script>
 
-<Button color="{Theme.Main}" {outline} on:click>{text}</Button>
+<Button color="{color}" {outline} {disabled} on:click>{text}</Button>
